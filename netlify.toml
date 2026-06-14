@@ -1,0 +1,14 @@
+[build]
+publish = "."
+
+[[redirects]]
+from = "https://guelphplumbingco-com.netlify.app/*"
+to = "https://guelphplumbers.ca/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/*"
+to = "https://guelphplumbers.ca/:splat"
+status = 301
+force = true
